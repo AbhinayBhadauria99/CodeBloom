@@ -7,7 +7,7 @@ function Footer() {
                     <h1 className="text-[6vw]  uppercase leading-none mb-10">EYE-</h1>
                     <h1 className="text-[6vw] uppercase leading-none mb-10">OPENING</h1>
                 </div>
-                <h3>CodeBloom</h3>
+                <h3>Fueled by creativity 😊 from CyborgScribe.</h3>
             </div>
             <div className="w-1/2 ">
                 <h1 className="text-[6vw] font-semibold uppercase leading-none mb-10">Websites</h1>

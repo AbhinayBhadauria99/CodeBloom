@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
 import { gsap } from "gsap";
+import landingCard from "../assets/landing-card.jpg";
 
 function LandingPage() {
     const textContainerRef = useRef<HTMLDivElement | null>(null);
@@ -38,7 +39,9 @@ function LandingPage() {
                     {["Transform ideas", "into powerful", "solutions."].map((item, index) => (
                         <div className="masker" key={index}>
                             <div className="w-fit flex items-center">
-                                {index === 1 && (<div className="w-[9vw] h-[5vw] bg-red-500 mt-[1vw]"></div>)}
+                                {index === 1 && (
+                                    <img src={landingCard} alt="Landing Card" className="w-[9vw] h-[5vw] object-cover mt-[1vw]" />
+                                )}
                                 <h1 className="text-line uppercase text-[7.5vw] tracking-tighter leading-[7.5vw] font-[Founders_Grotesk] ">{item}</h1>
                             </div>
                         </div>
