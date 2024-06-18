@@ -39,7 +39,7 @@ function LandingPage() {
                         <div className="masker" key={index}>
                             <div className="w-fit flex items-center">
                                 {index === 1 && (<div className="w-[9vw] h-[5vw] bg-red-500 mt-[1vw]"></div>)}
-                                <h1 className="text-line uppercase text-[7.5vw] tracking-tighter leading-[7.5vw] font-[Founders_Grotesk] font-medium">{item}</h1>
+                                <h1 className="text-line uppercase text-[7.5vw] tracking-tighter leading-[7.5vw] font-[Founders_Grotesk] ">{item}</h1>
                             </div>
                         </div>
                     ))}
