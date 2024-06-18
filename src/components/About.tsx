@@ -1,4 +1,5 @@
 import { useState } from "react";
+import backgroundImage from '../assets/lady.jpg';
 
 function About() {
     const [isClicked, setIsClicked] = useState(false);
@@ -27,7 +28,11 @@ function About() {
                             </div>
                         </button>
                     </div>
-                    <div className="w-1/2 h-[70vh] rounded-2xl bg-red-600"></div>
+
+                    <div className="w-1/2 h-[70vh] rounded-2xl"
+                        style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                        {/* Content inside the div */}
+                    </div>
                 </div>
             </div>
         </>
