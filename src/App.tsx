@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Marquee from './components/Marquee';
 import About from './components/About'
 import Eyes from './components/Eyes';
-
+import Cards from './components/Cards';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +14,7 @@ const App: React.FC = () => {
       <Marquee />
       <About />
       <Eyes />
+      <Cards />
     </div>
   );
 }
