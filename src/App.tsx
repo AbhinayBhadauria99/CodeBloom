@@ -3,6 +3,8 @@ import LandingPage from './components/LandingPage';
 import Navbar from './components/Navbar';
 import Marquee from './components/Marquee';
 import About from './components/About'
+import Eyes from './components/Eyes';
+
 
 const App: React.FC = () => {
   return (
@@ -11,6 +13,7 @@ const App: React.FC = () => {
       <LandingPage />
       <Marquee />
       <About />
+      <Eyes />
     </div>
   );
 }
