@@ -34,7 +34,7 @@ function LandingPage() {
 
     return (
         <>
-            <div className="w-full h-screen bg-zinc-900 pt-1">
+            <div className="w-full h-3/4 bg-zinc-900 pt-1">
                 <div ref={textContainerRef} className="textstructure mt-28 px-20">
                     {["Transform ideas", "into powerful", "solutions."].map((item, index) => (
                         <div className="masker" key={index}>

@@ -6,7 +6,7 @@ function About() {
 
     return (
         <>
-            <div className="w-full py-20 px-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black">
+            <div className="w-full h-2/4 py-20 px-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black">
                 <h1 className="font-[Founders_Grotesk] text-[4vw] tracking-tight">
                     CodeBloom is a strategic partner for fast-growing
                     tech businesses that need to raise funds, sell
@@ -29,7 +29,7 @@ function About() {
                         </button>
                     </div>
 
-                    <div className="w-1/2 h-[70vh] rounded-2xl"
+                    <div className="w-1/2 h-[60vw] rounded-2xl"
                         style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                         {/* Content inside the div */}
                     </div>

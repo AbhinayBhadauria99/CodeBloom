@@ -1,8 +1,8 @@
 function Cards() {
     return (
-        <div className="w-full h-screen p-5 bg-zinc-100 flex items-center px-32 gap-5">
-            <div className="cardcontainer h-[50vh] w-1/2">
-                <div className="card relative rounded-xl w-full h-full bg-[#004D43] flex items-center justify-center">
+        <div className="w-full h-2/4 p-5 bg-zinc-100 flex items-center px-32 gap-5">
+            <div className="cardcontainer h-screen w-1/2">
+                <div className="card relative rounded-xl w-full h-1/2 bg-[#004D43] flex items-center justify-center">
                     <img className="w-32" src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg"></img>
                     <button className="absolute px-5 py-1 rounded-full border-2 left-10 bottom-10">&copy;2024</button>
                 </div>
