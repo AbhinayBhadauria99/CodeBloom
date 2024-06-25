@@ -34,22 +34,22 @@ function LandingPage() {
 
     return (
         <>
-            <div className="w-full h-3/4 bg-zinc-900 pt-1">
-                <div ref={textContainerRef} className="textstructure mt-28 px-20">
+            <div className="w-full h-screen bg-zinc-900 pt-1 overflow-hidden">
+                <div ref={textContainerRef} className="textstructure mt-[20vh] lg:mt-20 p-9 px-20">
                     {["Transform ideas", "into powerful", "solutions."].map((item, index) => (
                         <div className="masker" key={index}>
                             <div className="w-fit flex items-center">
                                 {index === 1 && (
-                                    <img src={landingCard} alt="Landing Card" className="w-[9vw] h-[5vw] object-cover mt-[1vw]" />
+                                    <img src={landingCard} alt="Landing Card" className="w-[9vw] h-[10vw] mr-3 object-cover mt-[1vw]" />
                                 )}
-                                <h1 className="text-line uppercase text-[7.5vw] tracking-tighter leading-[7.5vw] font-[Founders_Grotesk] ">{item}</h1>
+                                <h1 className="text-line uppercase text-[9.5vw] lg:text-[7.5vw] tracking-tighter lg:leading-[6.5vw] leading-[9.5vw] font-bold font-[Founders_Grotesk] ">{item}</h1>
                             </div>
                         </div>
                     ))}
                 </div>
-                <div className="border-t-2 border-zinc-700 mt-10 flex justify-between items-center py-5 px-20">
+                <div className="border-t-2 border-zinc-700 mt-[25vh] lg:mt-0 flex justify-between items-center py-5 px-20">
                     {["For public and private companies", "From the first pitch to IPO"].map((item, index) => (
-                        <p className="text-md flex font-light tracking-tight leading-none" key={index}>{item}</p>
+                        <p className="text-md flex p-2 font-light tracking-tight leading-none" key={index}>{item}</p>
                     ))}
                     <div className="start flex items-center gap-5">
                         <div className="px-5 py-2 border-[2px] border-zinc-500 font-light text-sm uppercase rounded-full">start the project</div>
