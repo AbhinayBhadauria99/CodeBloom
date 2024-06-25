@@ -1,8 +1,8 @@
 
 function Footer() {
     return (
-        <div className="w-full flex h-1/2 bg-zinc-900 p-20">
-            <div className="w-[50%] h-full flex flex-col justify-between font-[Founders_Grotesk] ">
+        <div className="w-full flex h-1/2 bg-zinc-900 p-8  ">
+            <div className="w-[100%] h-full flex flex-col justify-between font-[Founders_Grotesk] ">
                 <div className="heading h-[50%]">
                     <h1 className="text-[6vw]  uppercase leading-none mb-10">EYE-</h1>
                     <h1 className="text-[6vw] uppercase leading-none mb-10">OPENING</h1>
